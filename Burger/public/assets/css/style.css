@@ -5,7 +5,18 @@
 } */
 
 body {
-  background-color: white;
+  background-color: #222;
+}
+
+#titleRow{
+  border: outset;
+  margin-bottom: 25px;
+  
+}
+
+#topCont{
+  background: url(../images/priceBoard.jpg);
+  /* background-repeat: no-repeat; */
 }
 .plate {
   width: 410px;
@@ -113,14 +124,23 @@ body {
   border-width: 3px;
 }
 
+#leftCol{
+  overflow-x: hidden;
+}
+
+
 .button-size {
   padding-bottom: 20px;
 }
 
 .btn-default{
-  background: url(../images/burger.png);
-  height: auto;
-  width: auto;
+  background-image: url(../images/burger.png);
+  background-repeat: no-repeat;
+  height: 175px;
+  width: 160px;
+  padding-left: 5px;
+  color: white;
+
 }
 
 #text-enter-button {
@@ -130,4 +150,8 @@ body {
 
 h1 {
   color: #f30;
+}
+
+#bottomP{
+  color: white;
 }
